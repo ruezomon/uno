@@ -1,6 +1,7 @@
 #include "../include/Deck.h"
 #include "../include/Card.h"
 #include <vector>
+#include <iostream>
 
 void uno::Deck::addCard(Card newCard) {
     this->cards.push_back(newCard);
@@ -29,6 +30,10 @@ bool uno::Deck::hasPossibleCard(uno::Card currentCard) {
     return false;
 }
 
-void printDeck() {
-    // not done
+void uno::Deck::printDeck() {
+    std::cout << "  | ";
+    for (uno::Card i : this->cards) {
+        std::cout << i.getName() << " | ";
+    }
+    std::cout << std::endl;
 }
