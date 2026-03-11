@@ -1,6 +1,6 @@
 #pragma once
 
-#include "deck.h"
+#include "Deck.h"
 
 struct Player {
     Deck hand;

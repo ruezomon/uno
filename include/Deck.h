@@ -1,6 +1,6 @@
 #pragma once
 
-#include "card.h"
+#include "Card.h"
 #include <vector>
 
 struct Deck {

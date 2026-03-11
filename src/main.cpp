@@ -4,7 +4,7 @@
 
 #include <iostream>
 
-#include "../include/card.h"
+#include "../include/Card.h"
 #include "../include/UNO.h"
 
 int main(int argc, char** argv) {

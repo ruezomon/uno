@@ -1,4 +1,4 @@
-#include "../include/card.h"
+#include "../include/Card.h"
 #include "../include/UNO.h"
 
 Card::Card(unsigned short value, unsigned short color) {
