@@ -2,8 +2,12 @@
 
 #include "Deck.h"
 
-struct Player {
-    Deck hand;
-    char* name;
-    Player(char* name, Deck hand);
+namespace uno {
+    struct Player {
+        private:
+            Deck hand;
+            char* name;
+        public:
+            Player(char* name, Deck hand);
+    };
 };
