@@ -1,5 +1,9 @@
+#pragma once
+
 #include "./player.h"
 
-class UNO {
-    
+namespace UNO {
+   enum COLORS : short {RED, BLUE, GREEN, YELLOW};
+   class UNO {
+   };
 };

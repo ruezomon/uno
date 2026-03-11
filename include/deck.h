@@ -1,9 +1,11 @@
+#pragma once
+
 #include "card.h"
 #include <vector>
 
 struct Deck {
     private:
-    	vector<Card> cards;
+       std::vector<Card> cards;
     public:
 	void addCard();
     	Card placeCard();

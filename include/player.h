@@ -1,7 +1,9 @@
+#pragma once
+
 #include "deck.h"
 
 struct Player {
     Deck hand;
     char* name;
-    Player();
+    Player(char* name, Deck hand);
 };
